@@ -206,4 +206,78 @@ body {
 #menu .menu-group .menu h2 {
   background-color: #E1B838;
 }
+
+#special {
+  margin-top: 2rem;
+  background-image: url(../assets/img/Background.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#special .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#special .content .left img {
+  height: 50rem;
+}
+
+#special .content .right {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10rem;
+}
+
+#special .content .right .disc h2 {
+  font-size: 3rem;
+  color: #E1B838;
+}
+
+#special .content .right .disc h2 span {
+  font-family: 'openSans_extrabold';
+}
+
+#special .content .right .disc h2 a {
+  color: #262626;
+  border: 0.5px solid #E1B838;
+  text-decoration: none;
+  background-color: #E1B838;
+  border-radius: 1rem;
+  padding: 0 1rem 0 1rem;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+#special .content .right .disc h2 a:hover {
+  background-color: #262626;
+  color: #E1B838;
+  border: 0.5px solid #E1B838;
+}
+
+#special .content .right .ending img {
+  height: 10rem;
+}
+
+#special .content .right .ending h2 {
+  font-size: 2rem;
+  color: #E1B838;
+}
 /*# sourceMappingURL=style.css.map */

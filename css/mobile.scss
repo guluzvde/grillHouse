@@ -46,3 +46,41 @@
        
     }
 }
+#special{
+
+  .content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // flex-wrap: wrap;
+      .left{
+          img{
+              height: 40rem;
+          }
+      }
+      .right{
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          gap: 5rem;
+          .disc{
+              h2{
+                  font-size: 3rem;
+                
+              }
+          }
+          .ending{
+              img{
+                  height: 10rem;
+                  padding-bottom: 2rem;
+              }
+              h2{
+                  font-size: 2rem;
+              }
+          }
+          
+
+      }
+  }
+  
+}

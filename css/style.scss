@@ -161,3 +161,64 @@ body{
         }
     }
 }
+#special{
+    margin-top: 2rem;
+    background-image: url(../assets/img/Background.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .left{
+            img{
+                height: 50rem;
+            }
+        }
+        .right{
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            gap: 10rem;
+            .disc{
+                h2{
+                    font-size: 3rem;
+                    color: $esasSari;
+                    span{
+                        font-family: 'openSans_extrabold';
+                    }
+                    a{
+                        color: #262626;
+                        border: 0.5px solid $esasSari;
+
+                        text-decoration: none;
+                        background-color: $esasSari;
+                        border-radius: 1rem;
+                        padding: 0 1rem 0 1rem;
+                        transition-duration: 0.25s;
+                    }
+                    a:hover{
+                        background-color: $arxaFon;
+                        color: $esasSari;
+                        border: 0.5px solid $esasSari;
+                    }
+                }
+            }
+            .ending{
+                img{
+                    height: 10rem;
+                }
+                h2{
+                    font-size: 2rem;
+                    color: $esasSari;
+                }
+            }
+            
+
+        }
+    }
+    
+}
