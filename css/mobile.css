@@ -32,15 +32,15 @@
 }
 
 #greeting .mainAbout .opening-group .opening {
-  width: 10rem;
+  width: 12rem;
 }
 
 #greeting .mainAbout .opening-group .opening .head {
-  font-size: 1.25rem;
+  font-size: 1.20rem;
 }
 
 #greeting .mainAbout .opening-group .opening .date {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 #greeting .mainAbout .opening-group .descrip h2 {
