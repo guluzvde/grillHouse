@@ -1,0 +1,130 @@
+@import url(./fonts.css);
+:root {
+  font-family: 'opensans_regular';
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+}
+
+#header {
+  width: 100vw;
+  margin: 1rem 0 1rem 0;
+}
+
+#header .items-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .items-group .logo img {
+  height: 8rem;
+}
+
+#header .items-group #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.25rem solid #E1B838;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5vw;
+  list-style-type: none;
+}
+
+#header .items-group #navbar ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #E1B838;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+#header .items-group #navbar ul li a:hover {
+  -webkit-transition-property: padding;
+  transition-property: padding;
+  color: #262626;
+  padding: 0 0 2rem 0;
+  background-color: #E1B838;
+  border-radius: 0 0 100% 100%;
+}
+
+#greeting {
+  background-image: url(../assets/img/Background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+#greeting .mainAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15vw;
+}
+
+#greeting .mainAbout img {
+  height: 30rem;
+}
+
+#greeting .mainAbout .opening-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5rem;
+}
+
+#greeting .mainAbout .opening-group .opening {
+  border: 1px solid #E1B838;
+}
+
+#greeting .mainAbout .opening-group .opening .head {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #E1B838;
+}
+
+#greeting .mainAbout .opening-group .opening .date {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#greeting .mainAbout .opening-group .descrip h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
